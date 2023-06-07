@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: wheat;
+  color: green;
+}
+
+menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  background-color: green;
+  width: 50%;
+  height: 5rem;
+  border-radius: 10px;
+}
+
+a {
+  color: green;
+  font-weight: 600;
+  background-color: wheat;
+  text-decoration: none;
+  border: 4px solid wheat;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  height: 2rem;
+  background-color: rosybrown;
+  color: green;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+textarea {
+  background-color: rosybrown;
+  color: green;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="submit"] {
+  height: 2rem;
+  background-color: green;
+  color: rosybrown;
+}
+
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+}
